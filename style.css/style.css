@@ -148,7 +148,6 @@ h2 {
   color: var(--primari-white-color);
   background-color: var(--accent-color);
 }
-
 .button {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -162,17 +161,30 @@ h2 {
   color: var(--title-text-color);
   background-color: var(--staff-bdrcolor);
 }
-
 .buttons:hover,
 .buttons:focus {
   color: var(--primari-white-color);
   background-color: var(--accent-color);
 }
 
+.buttons {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
 /* PORTFOLIO */
 
 .filter-name {
   color: var(--title-text-color);
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 2;
+  vertical-align: top;
+  letter-spacing: 0.06em;
 }
 
 .filter-text {
@@ -181,6 +193,12 @@ h2 {
 
 .filter-direction {
   color: var(--primari-text-color);
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
 }
 
 .filter-text:hover {
