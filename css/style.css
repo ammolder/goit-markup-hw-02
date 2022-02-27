@@ -39,9 +39,24 @@ ul {
 /* Header */
 
 /* Site-nav */
-
-.site-nav .logo {
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo-black {
+  color: var(--title-text-color);
+}
+.logo-white {
   color: var(--primari-white-color);
+}
+
+.logo-accent,
+.logo-black,
+.logo-white {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .site-nav .link {
   color: var(--title-text-color);
@@ -63,7 +78,7 @@ ul {
 
 .site-nav,
 .contact {
-  font-family: Roboto, sans;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
@@ -146,7 +161,7 @@ h2 {
 }
 
 .page-footer .info {
-  font-family: Roboto, sans;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
