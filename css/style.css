@@ -5,6 +5,7 @@
 /* основной фон страницы background: #FFFFFF; --primari-white-color */
 
 /* акцент background: #2196F3;--accent-color */
+/* ховер героя backgraund: #188CE8; --hover-button */
 
 /* фон героя и футер background: #2F303A; --hero-bgrcolor */
 /* фон команда background: #F5F4FA; --staff-bdrcolor */
@@ -19,6 +20,7 @@
   --hero-bgrcolor: #2f303a;
   --staff-bdrcolor: #f5f4fa;
   --contact-footer: #ffffff99;
+  --hover-button: #188ce8;
 }
 
 .page {
@@ -41,6 +43,7 @@ ul {
 /* Site-nav */
 .logo-accent {
   color: var(--accent-color);
+  margin-right: -4px;
 }
 .logo-black {
   color: var(--title-text-color);
@@ -151,9 +154,11 @@ h2 {
 }
 .page-footer .text-info {
   color: var(--primari-white-color);
+  font-style: normal;
 }
 .page-footer .info {
   color: var(--contact-footer);
+  font-style: normal;
 }
 .page-footer .info:hover,
 .page-footer .info:focus {
@@ -169,11 +174,15 @@ h2 {
 }
 
 /* Button */
+#studio {
+  color: var(--accent-color);
+}
+#portfolio {
+  color: var(--accent-color);
+}
 .button {
   color: var(--primari-white-color);
   background-color: var(--accent-color);
-}
-.button {
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -182,18 +191,14 @@ h2 {
   cursor: pointer;
   text-align: center;
 }
+.button:hover,
+.button:focus {
+  background-color: var(--hover-button);
+}
 
 .buttons {
   color: var(--title-text-color);
   background-color: var(--staff-bdrcolor);
-}
-.buttons:hover,
-.buttons:focus {
-  color: var(--primari-white-color);
-  background-color: var(--accent-color);
-}
-
-.buttons {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -202,12 +207,16 @@ h2 {
   cursor: pointer;
   text-align: center;
 }
+.buttons:hover,
+.buttons:focus {
+  color: var(--primari-white-color);
+  background-color: var(--accent-color);
+}
 
 /* PORTFOLIO */
-
 .filter-name {
   color: var(--title-text-color);
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   vertical-align: top;
@@ -220,7 +229,7 @@ h2 {
 
 .filter-direction {
   color: var(--primari-text-color);
-  font-weight: 900;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   text-align: left;
