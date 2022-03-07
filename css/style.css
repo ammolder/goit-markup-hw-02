@@ -81,7 +81,6 @@ ul {
 
 .site-nav,
 .contact {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
@@ -166,8 +165,6 @@ h2 {
 }
 
 .page-footer .info {
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -183,7 +180,6 @@ h2 {
 .button {
   color: var(--primari-white-color);
   background-color: var(--accent-color);
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -199,7 +195,6 @@ h2 {
 .buttons {
   color: var(--title-text-color);
   background-color: var(--staff-bdrcolor);
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -229,7 +224,6 @@ h2 {
 
 .filter-direction {
   color: var(--primari-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   text-align: left;
